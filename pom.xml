@@ -66,15 +66,15 @@
 	</dependencies>
 	
 	 <build>
+          <build>
+        <finalName>springboot-demo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>tju.MicroService01_Eureka.App</mainClass>
-                </configuration>
             </plugin>
         </plugins>
+    </build>
     </build>
 
 </project>
