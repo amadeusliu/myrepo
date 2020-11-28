@@ -66,7 +66,7 @@
 	</dependencies>
 	
 	 <build>
-          <build>
+
         <finalName>springboot-demo</finalName>
         <plugins>
             <plugin>
@@ -74,7 +74,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-    </build>
+
     </build>
 
 </project>
