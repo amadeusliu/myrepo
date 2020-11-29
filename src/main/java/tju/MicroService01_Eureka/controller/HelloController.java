@@ -13,7 +13,7 @@ public class HelloController {
 	@RequestMapping("/test")
 	public String test()
 	{
-		return username+"2021";
+		return username+"xxxxzz2021";
 	}
 
 }
