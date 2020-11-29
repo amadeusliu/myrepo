@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('pull_code') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '2f324cf3-f04e-4179-9eff-cdd0e9dfba6c', url: 'https://github.com/amadeusliu/myrepo']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/$[branch]']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '2f324cf3-f04e-4179-9eff-cdd0e9dfba6c', url: 'https://github.com/amadeusliu/myrepo']]])
             }
         }
          stage('build project') {
