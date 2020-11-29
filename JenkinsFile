@@ -19,11 +19,7 @@ pipeline {
         }
     }
 
-post {
-always{
-emailext body: 'good!', subject: 'buid finished', to: 'amadeusliu@sina.com'
-}
-}
+
 
 
 }
