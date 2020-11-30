@@ -13,6 +13,9 @@ public class HelloController {
 	@RequestMapping("/test")
 	public String test()
 	{
+int i=100;
+int j=0;
+int k=i/j;
 		return username+"gouzi tju";
 	}
 
